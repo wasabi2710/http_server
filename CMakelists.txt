@@ -3,6 +3,11 @@ project(httpserver)
 
 if (WIN32) 
 
-    add_executable(${PROJECT_NAME} src/win32/main.c)
+    # file(GLOB SOURCES src/win32/*.c)
+
+    add_executable(${PROJECT_NAME} src/win32/main.c src/win32/parser.c src/win32/logger.c)
+
+    # link winsock ws_32.lib
+    target_link_libraries(${PROJECT_NAME} PRIVATE wsock32 ws2_32)
 
 endif()

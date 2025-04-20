@@ -1,3 +1,5 @@
 # ninja log v6
-93	218	7620059212080202	httpserver.exe	dc5e44fa25384d94
-20	92	7620059211345593	CMakeFiles/httpserver.dir/src/win32/main.c.obj	b46463a23b667c5b
+735	877	7668526174285333	httpserver.exe	edc26eeb9bec1b13
+21	734	7668526167149439	CMakeFiles/httpserver.dir/src/win32/parser.c.obj	aa0746c8e8d1e256
+17	735	7668526167111667	CMakeFiles/httpserver.dir/src/win32/main.c.obj	b46463a23b667c5b
+21	100	7667853705784263	CMakeFiles/httpserver.dir/src/win32/logger.c.obj	221840d5208773aa

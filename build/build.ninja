@@ -49,6 +49,16 @@ build CMakeFiles/httpserver.dir/src/win32/main.c.obj: C_COMPILER__httpserver_uns
   OBJECT_DIR = CMakeFiles\httpserver.dir
   OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src\win32
 
+build CMakeFiles/httpserver.dir/src/win32/parser.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/win32/parser.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\win32\parser.c.obj.d
+  OBJECT_DIR = CMakeFiles\httpserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src\win32
+
+build CMakeFiles/httpserver.dir/src/win32/logger.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/win32/logger.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\win32\logger.c.obj.d
+  OBJECT_DIR = CMakeFiles\httpserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src\win32
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target httpserver
@@ -57,8 +67,8 @@ build CMakeFiles/httpserver.dir/src/win32/main.c.obj: C_COMPILER__httpserver_uns
 #############################################
 # Link the executable httpserver.exe
 
-build httpserver.exe: C_EXECUTABLE_LINKER__httpserver_ CMakeFiles/httpserver.dir/src/win32/main.c.obj
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build httpserver.exe: C_EXECUTABLE_LINKER__httpserver_ CMakeFiles/httpserver.dir/src/win32/main.c.obj CMakeFiles/httpserver.dir/src/win32/parser.c.obj CMakeFiles/httpserver.dir/src/win32/logger.c.obj
+  LINK_LIBRARIES = -lwsock32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\httpserver.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
