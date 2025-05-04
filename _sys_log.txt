@@ -1,690 +1,180 @@
- client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (26 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (26 bytes)
-Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (310 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (310 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (26 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (26 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (310 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (310 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (26 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (26 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (310 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (310 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (36 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (36 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (310 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (310 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (36 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (36 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/favicon.ico
-Requested path: favicon.ico
-Streamed file (18402 bytes)
-File extension: ico
-MIME type: application/octet-stream
-Constructed HTTP 200 OK response
-Served file: favicon.ico (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (310 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (310 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Failed to receive HTTP header
-Requested path: 
-Failed to open file
-File not found or failed to stream file
-Constructed HTTP 404 Not Found response
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (310 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (310 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Failed to receive HTTP header
-Requested path: 
-Failed to open file
-File not found or failed to stream file
-Constructed HTTP 404 Not Found response
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (354 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (354 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Failed to receive HTTP header
-Requested path: 
-Failed to open file
-File not found or failed to stream file
-Constructed HTTP 404 Not Found response
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (356 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (356 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (356 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (356 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (356 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (356 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (356 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (356 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (381 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (381 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (381 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (381 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (381 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP 200 OK response
-Served file: index.html (381 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP 200 OK response
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP 200 OK response
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Failed to receive HTTP header
-Requested path: 
-Failed to open file
-File not found or failed to stream file
-Constructed HTTP 404 Not Found response
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (381 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP response headers
-Served file: index.html (381 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (53 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP response headers
-Served file: style.css (53 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/favicon.ico
-Requested path: favicon.ico
+Requested path: P
 Failed to open file
 File not found or failed to stream file
 Constructed HTTP response headers
 Handling new client request...
 Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (381 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP response headers
-Served file: index.html (381 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (52 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP response headers
-Served file: style.css (52 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (430 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP response headers
-Served file: index.html (430 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (52 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP response headers
-Served file: style.css (52 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (440 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP response headers
-Served file: index.html (440 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (52 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP response headers
-Served file: style.css (52 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/favicon.ico
-Requested path: favicon.ico
+Requested path: r
 Failed to open file
 File not found or failed to stream file
 Constructed HTTP response headers
 Handling new client request...
 Parsed HTTP request: method=GET path=/
-Requested path: index.html
+Requested path: b
+Failed to open file
+File not found or failed to stream file
+Constructed HTTP response headers
+Handling new client request...
+Parsed HTTP request: method=GET path=/
+Requested path: P
+Failed to open file
+File not found or failed to stream file
+Constructed HTTP response headers
+Handling new client request...
+Parsed HTTP request: method=GET path=/
+Requested path: P
+Failed to open file
+File not found or failed to stream file
+Constructed HTTP response headers
+Handling new client request...
+Parsed HTTP request: method=GET path=/
+Requested path: L
+Failed to open file
+File not found or failed to stream file
+Constructed HTTP response headers
+Handling new client request...
+Parsed HTTP request: method=GET path=/
+Requested path: \
+Failed to open file
+File not found or failed to stream file
+Constructed HTTP response headers
+Handling new client request...
+Parsed HTTP request: method=GET path=/
+Requested path: V
+Failed to open file
+File not found or failed to stream file
+Constructed HTTP response headers
+Handling new client request...
+Parsed HTTP request: method=GET path=/
+Requested path: public/index.html
 Streamed file (483 bytes)
 File extension: html
 MIME type: text/html
 Constructed HTTP response headers
-Served file: index.html (483 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/script.js
-Requested path: script.js
-Streamed file (118 bytes)
-File extension: js
-MIME type: application/javascript
-Constructed HTTP response headers
-Served file: script.js (118 bytes)
+Served file: public/index.html (483 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
+Requested path: public/style.css
 Streamed file (52 bytes)
 File extension: css
 MIME type: text/css
 Constructed HTTP response headers
-Served file: style.css (52 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Failed to receive HTTP header
-Requested path: 
-Failed to open file
-File not found or failed to stream file
-Constructed HTTP response headers
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (483 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP response headers
-Served file: index.html (483 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (52 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP response headers
-Served file: style.css (52 bytes)
+Served file: public/style.css (52 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/script.js
-Requested path: script.js
-Streamed file (87 bytes)
-File extension: js
-MIME type: application/javascript
-Constructed HTTP response headers
-Served file: script.js (87 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/
-Requested path: index.html
-Streamed file (483 bytes)
-File extension: html
-MIME type: text/html
-Constructed HTTP response headers
-Served file: index.html (483 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/script.js
-Requested path: script.js
+Requested path: public/script.js
 Streamed file (85 bytes)
 File extension: js
 MIME type: application/javascript
 Constructed HTTP response headers
-Served file: script.js (85 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
-Streamed file (52 bytes)
-File extension: css
-MIME type: text/css
-Constructed HTTP response headers
-Served file: style.css (52 bytes)
+Served file: public/script.js (85 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Failed to receive HTTP header
-Requested path: 
+Requested path: public/image.png
 Failed to open file
 File not found or failed to stream file
 Constructed HTTP response headers
 Handling new client request...
 Parsed HTTP request: method=GET path=/
-Requested path: index.html
+Requested path: public/index.html
 Streamed file (483 bytes)
 File extension: html
 MIME type: text/html
 Constructed HTTP response headers
-Served file: index.html (483 bytes)
+Served file: public/index.html (483 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
+Requested path: public/style.css
 Streamed file (52 bytes)
 File extension: css
 MIME type: text/css
 Constructed HTTP response headers
-Served file: style.css (52 bytes)
+Served file: public/style.css (52 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/script.js
-Requested path: script.js
+Requested path: public/script.js
 Streamed file (85 bytes)
 File extension: js
 MIME type: application/javascript
 Constructed HTTP response headers
-Served file: script.js (85 bytes)
+Served file: public/script.js (85 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
-Constructed HTTP response headers
-Served file: image.png (18402 bytes)
-Connection closed
-Handling new client request...
-Failed to receive HTTP header
-Requested path: 
+Requested path: public/image.png
 Failed to open file
 File not found or failed to stream file
 Constructed HTTP response headers
 Handling new client request...
-Parsed HTTP request: method=GET path=/hi.html
-Requested path: hi.html
-Failed to open file
-File not found or failed to stream file
-Constructed HTTP response headers
-Handling new client request...
-Parsed HTTP request: method=GET path=/index.html
-Requested path: index.html
+Parsed HTTP request: method=GET path=/
+Requested path: public/index.html
 Streamed file (483 bytes)
 File extension: html
 MIME type: text/html
 Constructed HTTP response headers
-Served file: index.html (483 bytes)
-Connection closed
-Handling new client request...
-Parsed HTTP request: method=GET path=/script.js
-Requested path: script.js
-Streamed file (85 bytes)
-File extension: js
-MIME type: application/javascript
-Constructed HTTP response headers
-Served file: script.js (85 bytes)
+Served file: public/index.html (483 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/style.css
-Requested path: style.css
+Requested path: public/style.css
 Streamed file (52 bytes)
 File extension: css
 MIME type: text/css
 Constructed HTTP response headers
-Served file: style.css (52 bytes)
+Served file: public/style.css (52 bytes)
+Connection closed
+Handling new client request...
+Parsed HTTP request: method=GET path=/script.js
+Requested path: public/script.js
+Streamed file (85 bytes)
+File extension: js
+MIME type: application/javascript
+Constructed HTTP response headers
+Served file: public/script.js (85 bytes)
 Connection closed
 Handling new client request...
 Parsed HTTP request: method=GET path=/image.png
-Requested path: image.png
-Streamed file (18402 bytes)
-File extension: png
-MIME type: image/png
+Requested path: public/image.png
+Failed to open file
+File not found or failed to stream file
 Constructed HTTP response headers
-Served file: image.png (18402 bytes)
+Handling new client request...
+Parsed HTTP request: method=GET path=/
+Requested path: public/index.html
+Streamed file (483 bytes)
+File extension: html
+MIME type: text/html
+Constructed HTTP response headers
+Served file: public/index.html (483 bytes)
 Connection closed
+Handling new client request...
+Parsed HTTP request: method=GET path=/style.css
+Requested path: public/style.css
+Streamed file (52 bytes)
+File extension: css
+MIME type: text/css
+Constructed HTTP response headers
+Served file: public/style.css (52 bytes)
+Connection closed
+Handling new client request...
+Parsed HTTP request: method=GET path=/script.js
+Requested path: public/script.js
+Streamed file (85 bytes)
+File extension: js
+MIME type: application/javascript
+Constructed HTTP response headers
+Served file: public/script.js (85 bytes)
+Connection closed
+Handling new client request...
+Parsed HTTP request: method=GET path=/image.png
+Requested path: public/image.png
+Failed to open file
+File not found or failed to stream file
+Constructed HTTP response headers

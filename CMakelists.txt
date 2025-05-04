@@ -4,9 +4,12 @@ project(httpserver)
 if (WIN32) 
 
     # file(GLOB SOURCES src/win32/*.c)
+    add_executable(${PROJECT_NAME} src/main.c src/utils.c src/file_handler.c src/request.c src/response.c src/router.c src/server.c)
 
-    add_executable(${PROJECT_NAME} src/win32/main.c src/win32/parser.c src/win32/logger.c)
-
+    target_include_directories(${PROJECT_NAME}
+        PRIVATE ${CMAKE_SOURCE_DIR}/include
+    )
+    
     # link winsock ws_32.lib
     target_link_libraries(${PROJECT_NAME} PRIVATE wsock32 ws2_32)
 

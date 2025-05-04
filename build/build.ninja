@@ -44,20 +44,47 @@ cmake_ninja_workdir = C$:/Users/Administrator/Documents/DEV/cpp/http_server/buil
 
 build cmake_object_order_depends_target_httpserver: phony || .
 
-build CMakeFiles/httpserver.dir/src/win32/main.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/win32/main.c || cmake_object_order_depends_target_httpserver
-  DEP_FILE = CMakeFiles\httpserver.dir\src\win32\main.c.obj.d
+build CMakeFiles/httpserver.dir/src/main.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/main.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\main.c.obj.d
+  INCLUDES = -IC:/Users/Administrator/Documents/DEV/cpp/http_server/include
   OBJECT_DIR = CMakeFiles\httpserver.dir
-  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src\win32
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src
 
-build CMakeFiles/httpserver.dir/src/win32/parser.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/win32/parser.c || cmake_object_order_depends_target_httpserver
-  DEP_FILE = CMakeFiles\httpserver.dir\src\win32\parser.c.obj.d
+build CMakeFiles/httpserver.dir/src/utils.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/utils.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\utils.c.obj.d
+  INCLUDES = -IC:/Users/Administrator/Documents/DEV/cpp/http_server/include
   OBJECT_DIR = CMakeFiles\httpserver.dir
-  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src\win32
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src
 
-build CMakeFiles/httpserver.dir/src/win32/logger.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/win32/logger.c || cmake_object_order_depends_target_httpserver
-  DEP_FILE = CMakeFiles\httpserver.dir\src\win32\logger.c.obj.d
+build CMakeFiles/httpserver.dir/src/file_handler.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/file_handler.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\file_handler.c.obj.d
+  INCLUDES = -IC:/Users/Administrator/Documents/DEV/cpp/http_server/include
   OBJECT_DIR = CMakeFiles\httpserver.dir
-  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src\win32
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src
+
+build CMakeFiles/httpserver.dir/src/request.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/request.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\request.c.obj.d
+  INCLUDES = -IC:/Users/Administrator/Documents/DEV/cpp/http_server/include
+  OBJECT_DIR = CMakeFiles\httpserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src
+
+build CMakeFiles/httpserver.dir/src/response.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/response.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\response.c.obj.d
+  INCLUDES = -IC:/Users/Administrator/Documents/DEV/cpp/http_server/include
+  OBJECT_DIR = CMakeFiles\httpserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src
+
+build CMakeFiles/httpserver.dir/src/router.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/router.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\router.c.obj.d
+  INCLUDES = -IC:/Users/Administrator/Documents/DEV/cpp/http_server/include
+  OBJECT_DIR = CMakeFiles\httpserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src
+
+build CMakeFiles/httpserver.dir/src/server.c.obj: C_COMPILER__httpserver_unscanned_ C$:/Users/Administrator/Documents/DEV/cpp/http_server/src/server.c || cmake_object_order_depends_target_httpserver
+  DEP_FILE = CMakeFiles\httpserver.dir\src\server.c.obj.d
+  INCLUDES = -IC:/Users/Administrator/Documents/DEV/cpp/http_server/include
+  OBJECT_DIR = CMakeFiles\httpserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\httpserver.dir\src
 
 
 # =============================================================================
@@ -67,7 +94,7 @@ build CMakeFiles/httpserver.dir/src/win32/logger.c.obj: C_COMPILER__httpserver_u
 #############################################
 # Link the executable httpserver.exe
 
-build httpserver.exe: C_EXECUTABLE_LINKER__httpserver_ CMakeFiles/httpserver.dir/src/win32/main.c.obj CMakeFiles/httpserver.dir/src/win32/parser.c.obj CMakeFiles/httpserver.dir/src/win32/logger.c.obj
+build httpserver.exe: C_EXECUTABLE_LINKER__httpserver_ CMakeFiles/httpserver.dir/src/main.c.obj CMakeFiles/httpserver.dir/src/utils.c.obj CMakeFiles/httpserver.dir/src/file_handler.c.obj CMakeFiles/httpserver.dir/src/request.c.obj CMakeFiles/httpserver.dir/src/response.c.obj CMakeFiles/httpserver.dir/src/router.c.obj CMakeFiles/httpserver.dir/src/server.c.obj
   LINK_LIBRARIES = -lwsock32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\httpserver.dir
   POST_BUILD = cd .

@@ -1,12 +1,7 @@
-#include "parser.h"
-#include "logger.h"
-#include "config.h"
+#include "server.h"
 
-typedef struct {
-    char ip[INET_ADDRSTRLEN];  // 16 bytes (IPv4 max)
-    u_short port;              // 2 bytes
-} IpPort;
-
+// helpers
+// extract addr
 IpPort extract_ip_port(struct sockaddr_in addr) {
     IpPort result;
     inet_ntop(AF_INET, &addr.sin_addr, result.ip, sizeof(result.ip));
@@ -14,20 +9,18 @@ IpPort extract_ip_port(struct sockaddr_in addr) {
     return result;
 }
 
-int main() {    
-    init_logger(); //start logger..
-
+// main server loop
+void server() {
     WSADATA wsaData = {0};
     SOCKET sockfd = 0;
     SOCKET clientfd = 0;
 
-    // Initialize Winsock
     if (WSAStartup(MAKEWORD(3, 3), &wsaData) < 0) 
-        LOGERROR("Failed Init WSAData");
+        LOG("Failed init wsadat\n");
 
     sockfd = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (sockfd == INVALID_SOCKET) 
-        LOGERROR("Failed Socket Init");
+        LOG("Failed Socket Init");
 
     // Bind
     struct sockaddr_in serverAddr = {0};
@@ -36,11 +29,11 @@ int main() {
     serverAddr.sin_addr.s_addr = INADDR_ANY;
 
     if (bind(sockfd, (struct sockaddr *)&serverAddr, sizeof(serverAddr))) 
-        LOGERROR("Failed binding the server socket");
+        LOG("Failed binding the server socket");
 
     // Listen
     if (listen(sockfd, SOMAXCONN)) 
-        LOGERROR("Failed Setting Listener");
+        LOG("Failed Setting Listener");
 
     printf("Server listening on port %d...\n", SERVER_PORT);
 
@@ -55,23 +48,13 @@ int main() {
             continue;
         }
 
-        IpPort ipPort = extract_ip_port(clientAddr);
-
-        //logger
-        //clients
-        printf("Client: %s:%d\n", ipPort.ip, ipPort.port);
-        // if i were to calse func parse_http_header here
-        //HttpRequest request = parse_http_request(clientfd);
-
-        // file server
-        file_server(clientfd);
+        //
+        response(clientfd);
         
         closesocket(clientfd);
-
     }
 
     closesocket(sockfd);
     WSACleanup();
     close_logger();
-    return 0;
 }
